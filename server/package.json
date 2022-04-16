@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "nodemon server.js --ignore /base/db.json"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "lowdb": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
